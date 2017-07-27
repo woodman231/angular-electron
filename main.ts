@@ -69,3 +69,6 @@ try {
   // Catch Error
   // throw e;
 }
+
+import ipcTest from './ipc-test'
+ipcTest.ipcTest();
