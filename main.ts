@@ -71,4 +71,5 @@ try {
 }
 
 import ipcTest from './ipc-test'
-ipcTest.ipcTest();
+//ipcTest.ipcTest();
+let myipctest = new ipcTest

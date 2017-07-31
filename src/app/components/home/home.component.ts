@@ -5,13 +5,14 @@ import { ElectronService } from '../../providers/electron.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  styleUrls: ['./home.component.scss'],  
 })
 export class HomeComponent implements OnInit {
-  title = `App works !`;
-  message = "";  
+  title : string;
+  message : string;  
 
-  constructor( public electronService: ElectronService ) {    
+  constructor( private electronService: ElectronService ) {    
+    this.title = `App works !`;
   }
 
   public mytestipc() {          

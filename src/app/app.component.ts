@@ -15,6 +15,7 @@ export class AppComponent {
       console.log('c', electronService.ipcRenderer);
       // Check if nodeJs childProcess is correctly injected (see externals in webpack.config.js)
       console.log('c', electronService.childProcess);
+      console.log('c', electronService.fs);
     } else {
       console.log('Mode web');
     }
